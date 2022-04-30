@@ -1,0 +1,41 @@
+.candidateList{
+    background-color:#F7F7F7;
+    padding: 10px;
+    margin: 10px;
+    width: 65%;
+    border-radius: 10px;
+    display: grid;
+}
+
+.candidateList .candidate{
+    background-color: #EEF1F3;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+.candidateList .candidate .candidateAttribute{
+    display: grid;
+}
+
+.candidate_name{
+    color:black;
+    font-weight: bolder;
+    font-size: large;
+    list-style-type: none;
+    padding-left: 100px;
+}
+.candidate_profile{
+    color:black;
+    font-weight: bold;
+    font-size: medium;
+    list-style-type: none;
+    padding-left: 100px;
+}
+.candidate_company{
+    color: gray;
+    font-weight: lighter;
+    font-size: medium;
+    list-style-type: none;
+    padding-left: 100px;
+}

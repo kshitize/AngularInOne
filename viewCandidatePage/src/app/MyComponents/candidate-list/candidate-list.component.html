@@ -1,0 +1,19 @@
+<div class="candidateList">
+    
+    <div class="candidate" *ngFor="let candidate of allCandidateStringifiedData | 
+    paginate:{id:'listing_pagination', itemsPerPage:5, currentPage:page,totalItems:totalRecords}">
+    <img src="../../../assets/KD.png" alt="Candidate Photo" width="100" height="100">
+    <div class="candidateAttribute">
+        <li class="candidate_name">{{candidate['fullname']}}</li>
+        <li class="candidate_profile">{{candidate['dob']}}</li>
+        <li class="candidate_company">{{candidate['company_name']}}</li>
+    </div>
+    </div>
+    <div>
+        <pagination-controls id=listing_pagination (pageChange)="page=$event" previousLabel="Previous"
+        nextLabel="Next"
+        screenReaderPaginationLabel="Pagination"
+        screenReaderPageLabel="page"
+        screenReaderCurrentLabel="You're on page"></pagination-controls>
+    </div>
+</div>

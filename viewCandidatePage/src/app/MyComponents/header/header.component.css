@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(247, 247, 247); */
+}
+
+ul{
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(25, 107, 157);
+    display: flex;
+    color: aliceblue;
+    padding-left: 10px;
+    
+    
+}
+
+#navbar{
+    display: flex;
+}
+
+
+#logout li{
+    margin-left: 539px;
+}
+
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+#input_box{
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background-color: rgb(25, 107, 157);
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 15px;
+    width: 71px;
+    height: 32px;
+    border-radius: 1px;
+}
+
+#input_name
+{
+    width: 25%;
+    padding-left: 10px;
+}
