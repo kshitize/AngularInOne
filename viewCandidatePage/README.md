@@ -1,3 +1,9 @@
+Features Implemented:-
+1. GET Method using API
+2. POST Method using API
+3. Pagination
+
+
 # CwhTodoList
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
